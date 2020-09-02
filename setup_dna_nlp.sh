@@ -55,7 +55,6 @@ conda install tensorflow=1.15
 #docker pull tensorflow/tensorflow:devel-gpu           # nightly dev release w/ GPU support
 #docker pull tensorflow/tensorflow:latest-gpu-jupyter  # latest release w/ GPU support and Jupyter
 
-pip install --upgrade pip
 pip install Cython
 pip install cufflinks  # combining plotly with pandas
 pip install wordcloud
@@ -68,8 +67,8 @@ pip3 install tflearn # add tflearn
 #pip install tensorflow==1.13.1
 
 
-docker run -it --rm tensorflow/tensorflow \
-   python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+# docker run -it --rm tensorflow/tensorflow \
+  # python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 
 # NLTK PACKAGES
 python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
