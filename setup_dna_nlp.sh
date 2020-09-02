@@ -48,7 +48,7 @@ conda install -y nltk=3.2.5  # nlp package
 conda install -y gensim  # nlp package
 conda install -y networkx  # network graph
 conda install -y lxml  # xml/html parsing
-conda install tensorflow=1.15
+#conda install tensorflow=1.15
 
   
 #docker pull tensorflow/tensorflow                     # latest stable release
