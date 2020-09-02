@@ -48,12 +48,12 @@ conda install -y nltk=3.2.5  # nlp package
 conda install -y gensim  # nlp package
 conda install -y networkx  # network graph
 conda install -y lxml  # xml/html parsing
-conda install tensorflow=1.14
+conda install tensorflow=1.15
 
   
-docker pull tensorflow/tensorflow                     # latest stable release
-docker pull tensorflow/tensorflow:devel-gpu           # nightly dev release w/ GPU support
-docker pull tensorflow/tensorflow:latest-gpu-jupyter  # latest release w/ GPU support and Jupyter
+#docker pull tensorflow/tensorflow                     # latest stable release
+#docker pull tensorflow/tensorflow:devel-gpu           # nightly dev release w/ GPU support
+#docker pull tensorflow/tensorflow:latest-gpu-jupyter  # latest release w/ GPU support and Jupyter
 
 pip install --upgrade pip
 pip install Cython
@@ -63,9 +63,9 @@ pip install pyvis
 pip install seaborn
 pip install -U scikit-learn
 pip3 install tflearn # add tflearn
-pip install tensorflow-gpu
+#pip install tensorflow-gpu
 # pip install --upgrade tensorflow
-pip install tensorflow==1.13.1
+#pip install tensorflow==1.13.1
 
 
 docker run -it --rm tensorflow/tensorflow \
