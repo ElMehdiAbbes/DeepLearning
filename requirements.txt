@@ -8,9 +8,8 @@ networkx
 lxml
 seaborn
 scikit-learn
-tensorflow==1.15
+tensorflow==1.15.0
 tflearn
-tensorflow-gpu
 cufflinks
 wordcloud
 pyvis
