@@ -64,7 +64,7 @@ pip install -U scikit-learn
 pip3 install tflearn # add tflearn
 #pip install tensorflow-gpu
 # pip install --upgrade tensorflow
-#pip install tensorflow==1.13.1
+pip install tensorflow==1.15.0
 
 
 # docker run -it --rm tensorflow/tensorflow \
