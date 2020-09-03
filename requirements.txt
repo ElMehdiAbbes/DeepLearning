@@ -8,7 +8,7 @@ networkx
 lxml
 seaborn
 scikit-learn
-tensorflow
+tensorflow==1.15.0
 tflearn
 tensorflow-gpu
 cufflinks
